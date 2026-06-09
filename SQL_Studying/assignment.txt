@@ -1,0 +1,39 @@
+
+Homework Assignment #3 (from textbook)
+3.11 Write the following queries in SQL, using the university schema.
+a. Find the names of all students who have taken at least one Comp. Sci. course; make
+sure there are no duplicate names in the result.
+b. Find the IDs and names of all students who have not taken any course offering before
+Spring 2009.
+c. For each department, find the maximum salary of instructors in that department. You
+may assume that every department has at least one instructor.
+d. Find the lowest, across all departments, of the per-department maximum salary
+computed by the preceding query.
+3.16 Consider the relational database below:
+employee (person_name, street, city)
+works (person_name, company_name, salary)
+company (company_name, city)
+manages (person_name, manager_name)
+Give an expression in SQL for each of the following queries.
+a. Find the names of all employees who work for First Bank Corporation.
+b. Find all employees in the database who live in the same cities as the companies for
+which they work.
+c. Find all employees in the database who live in the same cities and on the same streets
+as do their managers.
+d. Find all employees who earn more than the average salary of all employees of their
+company.
+e. Find the company that has the smallest payroll.
+3.21 Consider the following relational schema for a library:
+member(memb_no, name, dob)
+books(isbn, title, authors, publisher)
+borrowed(memb_no, isbn, date)
+Write the following queries in SQL.
+a. Print the names of members who have borrowed any book published by “McGraw-
+Hill”.
+b. Print the names of members who have borrowed all books published by “McGraw-
+Hill”.
+c. For each publisher, print the names of members who have borrowed more than five
+books of that publisher.
+d. Print the average number of books borrowed per member. Take into account that if a
+member does not borrow any books, then that member does not appear in the
+borrowed relation at all.
